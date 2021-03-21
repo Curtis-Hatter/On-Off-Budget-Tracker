@@ -8,7 +8,7 @@ const FILES_TO_CACHE = [
     "./manifest.webmanifest"
 ];
 
-// // install
+// install
 self.addEventListener("install", function (evt) {
 // pre cache image data
 //   evt.waitUntil(
