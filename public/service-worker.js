@@ -1,18 +1,18 @@
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
-    "/",
-    "./index.html",
-    "./styles.css",
-    "./index.js",
-    "./manifest.webmanifest"
+  "./",
+  "./index.html",
+  "./styles.css",
+  "./index.js",
+  "./manifest.webmanifest",
 ];
 
 // install
 self.addEventListener("install", function (evt) {
 // pre cache image data
 //   evt.waitUntil(
-//     caches.open(DATA_CACHE_NAME).then((cache) => cache.addAll("/api/images"))
+//     caches.open(DATA_CACHE_NAME).then((cache) => cache.addAll("./icons"))
 //   );
     
 // pre cache all static assets
