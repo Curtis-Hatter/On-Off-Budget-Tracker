@@ -6,6 +6,7 @@ const FILES_TO_CACHE = [
   "./styles.css",
   "./index.js",
   "./manifest.webmanifest",
+  "./db.js"
 ];
 
 // install
